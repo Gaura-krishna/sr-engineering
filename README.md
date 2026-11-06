@@ -1,16 +1,25 @@
-# SR Engineering Design Solutions Website
+# SR Engineering Design Solutions
 
-A responsive single-page website for SR Engineering Design Solutions.
+Next.js App Router site for SR Engineering Design Solutions — converted from the original static HTML/CSS/JS landing page.
 
-## Files
-- index.html — page structure/content
-- style.css — responsive premium black/gold/silver styling
-- script.js — navigation, scroll effects, reveal animations and demo contact form
-- logo.png — supplied company logo
+## Develop
 
-## Before production launch
-Replace the placeholder contact information in `index.html`:
-- +91 12345 67890
-- info@srengineering.com
+```bash
+npm run dev
+```
 
-Also replace the social links and connect the contact form to the company's preferred email/form backend.
+Open [http://localhost:3000](http://localhost:3000).
+
+## Build
+
+```bash
+npm run build
+npm start
+```
+
+## Structure
+
+- `app/` — layout, metadata, home page, and original site styles
+- `components/` — header, footer, contact form, hero visual, scroll effects
+- `lib/content.ts` — company copy, services, and structured data
+- `public/` — logo, favicons, service images, and web manifest
