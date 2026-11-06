@@ -24,7 +24,7 @@ import ProjectsSection1 from "@/components/ProjectsSection1";
 
 const stats = [
   {
-    value: "23–35",
+    value: "23–25",
     description: (
       <>
         Skilled BIM
@@ -34,7 +34,7 @@ const stats = [
     ),
   },
   {
-    value: "4+",
+    value: "5+",
     description: (
       <>
         Core Software
@@ -58,7 +58,7 @@ const stats = [
 const features = [
   {
     icon: Users,
-    title: "23–35",
+    title: "23–25",
     subtitle: "Skilled BIM Professionals",
   },
   {
