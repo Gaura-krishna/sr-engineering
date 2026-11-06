@@ -28,22 +28,22 @@ const services = [
     id: "design",
     number: "02",
     signal: "DS",
-    label: "02 / CREATIVE DEVELOPMENT - realted to autocad image",
+    label: "02 / CREATIVE DEVELOPMENT",
     title: "Design",
     description:
       "We transform concepts into practical engineering designs. Our team focuses on intelligent architectural and engineering solutions that balance functionality, aesthetics and technical requirements.",
-    image: "/services/design.jpg",
+    image: "/services/autocad01.jpg",
     tags: ["Architecture", "Engineering Design", "Documentation"],
   },
   {
     id: "modeling",
     number: "03",
     signal: "BM",
-    label: "03 / DIGITAL CONSTRUCTION - replace the image",
+    label: "03 / DIGITAL CONSTRUCTION",
     title: "Modeling",
     description:
       "We develop intelligent 3D BIM models with accurate geometry, coordinated building systems and detailed project information to support better construction outcomes.",
-    image: "/services/modeling.jpg",
+    image: "/services/3dmodeling.png",
     tags: ["Revit", "3D BIM", "MEPF", "Structural BIM"],
   },
   {
